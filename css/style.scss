@@ -1,0 +1,78 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: Montserrat;
+}
+header
+{
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+
+    .logo
+    {
+        margin: 10px 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+ 
+    nav
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        ul
+        {
+            display: inline-block;
+            margin: 10px 0;
+            li
+            {
+                display: inline-block;
+                list-style: none;
+                margin: 20px;
+                a
+                {
+                    padding: 10px 20px;
+                    font-size: 20px;
+                    color: #000;
+                    font-weight: 400;
+                    text-decoration: none;
+                    transition: .6s all ease-in-out;
+                } 
+                a:hover
+                {
+                    background: #000;
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+}
+.landingPage
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+
+    .getStarted
+    {
+        position: absolute;
+        top: 40%;
+        left: 4%;
+        font-size: 20px;
+        padding: 10px 20px;
+        background: #000;
+        color: #fff;
+        border-color: #000;
+        cursor: pointer;
+    }
+}
